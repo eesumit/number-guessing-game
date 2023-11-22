@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+html, body{
+    width: 100%;
+    /* margin-bottom: 20px; */
+    padding-bottom: 20px;
+    /* border: 1px solid green; */
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.main h1{
+    color: purple;
+    font-size: 7vh;
+    margin-top: 10%;
+}
+.input{
+    display: flex;
+     gap: 10px;
+    margin-top: 20px;
+    border: 1px solid purple;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+input{
+    width: 50%;
+    padding-left: 8px;
+    border-color: transparent;
+}
+.btn{
+    width: 75%;
+    border-color: transparent;
+    background-color: greenyellow;
+}
+.btn:hover{
+    background-color: rgb(77, 249, 77);
+    color: purple;
+
+}
+.content{
+    width: 30%;
+    padding: 20px 0px 10px 0px;
+    font-size: 2vh;
+    font-weight: 300;
+    opacity: 0.6;
+}
+#restart{
+    margin-left: 45%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(77, 249, 77);
+    border-color:transparent;
+    border-radius:10px;
+}
+.lastResult{
+    background-color: transparent;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+}
+.guesses{
+    margin-top: 10px;
+}
